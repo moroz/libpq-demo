@@ -1,0 +1,2 @@
+export PGDATABASE=libpq_demo
+export DATABASE_URL="postgres://postgres:postgres@localhost:5432/${PGDATABASE}?sslmode=disable"
